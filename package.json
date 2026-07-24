@@ -1,0 +1,30 @@
+{
+  "name": "ai-assistant-platform",
+  "version": "0.1.0",
+  "description": "منصة مساعد ذكاء اصطناعي متكاملة - نواة مركزية + وحدات (متجر إلكتروني، سوشيال ميديا، إعلانات وترندات، حسابات بنكية رقمية، تطوير المساعد بالكود)",
+  "main": "core/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node core/server.js",
+    "dev": "nodemon core/server.js",
+    "verify": "node scripts/verify-setup.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "helmet": "^7.1.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^7.3.1",
+    "winston": "^3.13.0",
+    "joi": "^17.13.3",
+    "axios": "^1.7.2",
+    "google-trends-api": "^4.9.2",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
